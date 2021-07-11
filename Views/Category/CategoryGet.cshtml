@@ -1,0 +1,28 @@
+﻿@model CoreAndFood.Data.Models.Category
+@{
+	ViewData["Title"] = "CategoryGet";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Category Update Page</h2>
+<br />
+
+@using (Html.BeginForm("CategoryUpdate", "Category", FormMethod.Post))
+{
+	@Html.Label("Category Id")
+	@Html.TextBoxFor(x => x.CategoryId, new { @class = "form-control", @readonly = "readonly" })
+	<br />
+	@Html.Label("Category Name")
+	@Html.TextBoxFor(x => x.CategoryName, new { @class = "form-control" })
+	@Html.ValidationMessageFor(x => x.CategoryName, "", new { @style = "color:red" })
+	<br />
+	@Html.Label("Category Description")
+	@Html.TextAreaFor(x => x.CategoryDesc, new { @class = "form-control", @rows = "5" })
+	<br />
+	@Html.Label("Category Status")
+	@Html.TextBoxFor(x => x.Status, new { @class = "form-control" })
+	<br />
+	<button class="btn pull-right btn-success">Update</button>
+}
+
+

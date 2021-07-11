@@ -1,0 +1,31 @@
+﻿@model List<CoreAndFood.Data.Models.Admin>
+@{
+	ViewData["Title"] = "Index";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Admin List</h2>
+<br />
+<table class="table table-bordered">
+	<tr>
+		<th>Admin ID</th>
+		<th>Admin Name</th>
+		<th>Password</th>
+		<th>Role</th>
+		<th>Delete</th>
+		<th>Update</th>
+	</tr>
+	@foreach (var x in Model)
+	{
+		<tr>
+			<th>@x.AdminId</th>
+			<td>@x.UserName</td>
+			<td>@x.Password</td>
+			<td>@x.AdminRole</td>
+			<td><a href="/Admin/AdminDelete/@x.AdminId" class="btn btn-danger">Delete</a></td>
+			<td><a href="/Admin/AdminGet/@x.AdminId" class="btn btn-success">Update</a></td>
+		</tr>
+	}
+</table>
+<a href="/Admin/AdminAdd/" class="btn pull-right btn-warning">New Admin</a>
+

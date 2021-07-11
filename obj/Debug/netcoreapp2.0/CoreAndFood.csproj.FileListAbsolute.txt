@@ -1,0 +1,11 @@
+C:\Users\90552\Desktop\Burcu\ÇALIŞMALAR\.net core\CoreAndFood\CoreAndFood\bin\Debug\netcoreapp2.0\CoreAndFood.deps.json
+C:\Users\90552\Desktop\Burcu\ÇALIŞMALAR\.net core\CoreAndFood\CoreAndFood\bin\Debug\netcoreapp2.0\CoreAndFood.runtimeconfig.json
+C:\Users\90552\Desktop\Burcu\ÇALIŞMALAR\.net core\CoreAndFood\CoreAndFood\bin\Debug\netcoreapp2.0\CoreAndFood.runtimeconfig.dev.json
+C:\Users\90552\Desktop\Burcu\ÇALIŞMALAR\.net core\CoreAndFood\CoreAndFood\bin\Debug\netcoreapp2.0\CoreAndFood.dll
+C:\Users\90552\Desktop\Burcu\ÇALIŞMALAR\.net core\CoreAndFood\CoreAndFood\obj\Debug\netcoreapp2.0\CoreAndFood.csprojAssemblyReference.cache
+C:\Users\90552\Desktop\Burcu\ÇALIŞMALAR\.net core\CoreAndFood\CoreAndFood\obj\Debug\netcoreapp2.0\CoreAndFood.csproj.CoreCompileInputs.cache
+C:\Users\90552\Desktop\Burcu\ÇALIŞMALAR\.net core\CoreAndFood\CoreAndFood\obj\Debug\netcoreapp2.0\CoreAndFood.AssemblyInfoInputs.cache
+C:\Users\90552\Desktop\Burcu\ÇALIŞMALAR\.net core\CoreAndFood\CoreAndFood\obj\Debug\netcoreapp2.0\CoreAndFood.AssemblyInfo.cs
+C:\Users\90552\Desktop\Burcu\ÇALIŞMALAR\.net core\CoreAndFood\CoreAndFood\bin\Debug\netcoreapp2.0\CoreAndFood.pdb
+C:\Users\90552\Desktop\Burcu\ÇALIŞMALAR\.net core\CoreAndFood\CoreAndFood\obj\Debug\netcoreapp2.0\CoreAndFood.dll
+C:\Users\90552\Desktop\Burcu\ÇALIŞMALAR\.net core\CoreAndFood\CoreAndFood\obj\Debug\netcoreapp2.0\CoreAndFood.pdb

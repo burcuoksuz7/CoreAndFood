@@ -1,0 +1,29 @@
+﻿@model CoreAndFood.Data.Models.Admin
+@{
+	ViewData["Title"] = "AdminGet";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Category Update Page</h2>
+<br />
+
+@using (Html.BeginForm("AdminUpdate", "Admin", FormMethod.Post))
+{
+	@Html.Label("Admin Id")
+	@Html.TextBoxFor(x => x.AdminId, new { @class = "form-control"  , @readonly= "readonly" })
+	<br />
+	@Html.Label("Admin User-Name")
+	@Html.TextBoxFor(x => x.UserName, new { @class = "form-control" })
+	@Html.ValidationMessageFor(x => x.UserName, "", new { @style = "color:red" })
+	<br />
+	@Html.Label("Admin Password")
+	@Html.TextBoxFor(x => x.Password, new { @class = "form-control" })
+	@Html.ValidationMessageFor(x => x.Password, "", new { @style = "color:red" })
+	<br />
+	@Html.Label("Admin Role")
+	@Html.TextBoxFor(x => x.AdminRole, new { @class = "form-control", @rows = "5" })
+	<br />
+	<button class="btn pull-right btn-success">Update</button>
+}
+
+

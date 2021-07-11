@@ -1,0 +1,71 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TypeScriptToolsVersion>4.2</TypeScriptToolsVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\web2\.gitattributes" />
+    <None Include="wwwroot\web2\css\bootstrap.css" />
+    <None Include="wwwroot\web2\css\clndr.css" />
+    <None Include="wwwroot\web2\css\jqvmap.css" />
+    <None Include="wwwroot\web2\css\nav.css" />
+    <None Include="wwwroot\web2\css\style.css" />
+    <None Include="wwwroot\web2\images\ar2.png" />
+    <None Include="wwwroot\web2\images\arrows.png" />
+    <None Include="wwwroot\web2\images\avatar.jpg" />
+    <None Include="wwwroot\web2\images\avatar1.jpg" />
+    <None Include="wwwroot\web2\images\avatar2.jpg" />
+    <None Include="wwwroot\web2\images\img-sprite.png" />
+    <None Include="wwwroot\web2\images\into.png" />
+    <None Include="wwwroot\web2\images\into1.png" />
+    <None Include="wwwroot\web2\images\logo.png" />
+    <None Include="wwwroot\web2\images\pp.jpg" />
+    <None Include="wwwroot\web2\images\pp0.jpg" />
+    <None Include="wwwroot\web2\images\pp01.jpg" />
+    <None Include="wwwroot\web2\images\settings.png" />
+    <None Include="wwwroot\web2\images\tick-mark.png" />
+    <None Include="wwwroot\web2\index.html" />
+    <None Include="wwwroot\web2\js\Chart1.js" />
+    <None Include="wwwroot\web2\js\clndr.js" />
+    <None Include="wwwroot\web2\js\easyResponsiveTabs.js" />
+    <None Include="wwwroot\web2\js\jquery.easydropdown.js" />
+    <None Include="wwwroot\web2\js\jquery.min.js" />
+    <None Include="wwwroot\web2\js\jquery.nicescroll.js" />
+    <None Include="wwwroot\web2\js\jquery.vmap.js" />
+    <None Include="wwwroot\web2\js\jquery.vmap.sampledata.js" />
+    <None Include="wwwroot\web2\js\jquery.vmap.world.js" />
+    <None Include="wwwroot\web2\js\main.js" />
+    <None Include="wwwroot\web2\js\moment-2.2.1.js" />
+    <None Include="wwwroot\web2\js\site.js" />
+    <None Include="wwwroot\web2\js\underscore-min.js" />
+    <None Include="wwwroot\web2\resimler\book1.jpg" />
+    <None Include="wwwroot\web2\resimler\book2.jpg" />
+    <None Include="wwwroot\web2\resimler\book3.jpg" />
+    <None Include="wwwroot\web2\resimler\book4.jpg" />
+    <None Include="wwwroot\web2\resimler\book5.jpg" />
+    <None Include="wwwroot\web2\resimler\img1.jpg" />
+    <None Include="wwwroot\web2\w3layouts-License.txt" />
+    <None Include="wwwroot\web2\Yeni Metin Belgesi.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="bootstrap" Version="3.4.1" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.9" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Cookies" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.4" />
+    <PackageReference Include="X.PagedList.Mvc.Core" Version="8.0.7" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,43 @@
+﻿
+@{
+	Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Core & Food</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">Core and Food</a>
+			</div>
+			<ul class="nav navbar-nav">
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="/Category/Index/">Category</a></li>
+				<li><a href="/Food/Index/">Food</a></li>
+				<li><a href="/Chart/Index3/">Pie Chart</a></li>
+				<li><a href="/Chart/Index2/">Column Chart</a></li>
+				<li><a href="/Chart/Statistics/">Statistics</a></li>
+				<li><a href="/Admin/Index/">Settings</a></li>
+				<li><a href="~/Login/LogOut/">LogOut</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="container">
+		@RenderBody()
+	</div>
+
+</body>
+</html>
+
